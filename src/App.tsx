@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from '@/src/components/layout/Layout';
 import Index from '@/src/pages/Index';
 import PrivacyPolicy from '@/src/pages/PrivacyPolicy';
+import ProductDetail from '@/src/pages/ProductDetail';
 
 export default function App() {
   return (
@@ -23,7 +24,7 @@ export default function App() {
           <Route path="/login" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">Entrar</h1><p className="mt-4 text-slate-600">Aceda à sua conta e encomendas.</p></div>} />
           <Route path="/cart" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">O Seu Cesto</h1><p className="mt-4 text-slate-600">Reveja os seus artigos antes de finalizar a compra.</p></div>} />
           <Route path="/category/:slug" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">Página de Categoria</h1><p className="mt-4 text-slate-600">Produtos filtrados por categoria.</p></div>} />
-          <Route path="/product/:id" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">Detalhe do Produto</h1><p className="mt-4 text-slate-600">Informações detalhadas sobre o produto.</p></div>} />
+          <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/article/:id" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">Detalhe do Artigo</h1><p className="mt-4 text-slate-600">Leia o artigo completo.</p></div>} />
           <Route path="/wishlist" element={<div className="container-custom py-20"><h1 className="text-4xl font-bold">Lista de Desejos</h1><p className="mt-4 text-slate-600">Os seus artigos guardados.</p></div>} />
         </Routes>
