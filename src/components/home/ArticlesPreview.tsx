@@ -35,8 +35,12 @@ export default function ArticlesPreview() {
       <div className="container-custom">
         <div className="flex justify-between items-end mb-16">
           <div>
-            <span className="text-accent font-bold text-[10px] uppercase tracking-[0.3em] mb-3 block">Especialistas Marítimos</span>
-            <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">Reparação e Manutenção</h2>
+            <span className="text-accent font-bold text-[10px] uppercase tracking-[0.3em] mb-3 block">
+              Especialistas Marítimos
+            </span>
+            <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">
+              Reparação e Manutenção
+            </h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
           
@@ -45,14 +49,15 @@ export default function ArticlesPreview() {
             rel="noopener noreferrer"
             className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
           >
-            Orçamento <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            <span>Orçamento</span>
+            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {latestArticles.map((article) => (
-            <ArticleCard 
-              key={article.id} 
-              id={article.id} 
+            <ArticleCard
+              key={article.id}
+              id={article.id}
               title={article.title}
               excerpt={article.excerpt}
               image={article.image}
