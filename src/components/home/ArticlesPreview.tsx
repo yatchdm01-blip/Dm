@@ -15,7 +15,7 @@ const latestArticles = [
   {
     id: '2',
     title: 'Pintura & Gelcoat',
-    excerpt: 'Prevent catastrophic failures with our step-by-step rigging inspection and maintenance checklist.',
+    excerpt: 'Acabamento profissional que protege e valoriza o seu barco.',
     image: 'https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     date: 'Oct 15, 2025',
     author: 'Sarah Marine'
