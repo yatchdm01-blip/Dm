@@ -2,7 +2,7 @@ import React from 'react';
 import ArticleCard from '../ArticleCard';
 import { ArrowRight } from 'lucide-react';
 
-const latestArticles = [
+const articles = [
   {
     id: '1',
     title: 'Tratamento de Casco e Antifouling',
@@ -29,7 +29,7 @@ const latestArticles = [
   }
 ];
 
-const whatsapp = 'https://wa.me/351913282888';
+const wa = 'https://wa.me/351913282888';
 
 export default function ArticlesPreview() {
   return (
@@ -46,15 +46,15 @@ export default function ArticlesPreview() {
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
           <button
-            onClick={() => window.open(whatsapp, '_blank')}
+            onClick={() => window.open(wa, '_blank')}
             className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
           >
-            Orcamento
+            {"WhatsApp"}
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {latestArticles.map((article) => (
+          {articles.map((article) => (
             <ArticleCard
               key={article.id}
               id={article.id}
