@@ -30,26 +30,28 @@ const latestArticles = [
 ];
 
 export default function ArticlesPreview() {
+  const whatsappUrl = "https://wa.me/351913282888";
+
   return (
     <section className="py-24 bg-off-white">
       <div className="container-custom">
         <div className="flex justify-between items-end mb-16">
           <div>
             <span className="text-accent font-bold text-[10px] uppercase tracking-[0.3em] mb-3 block">
-              Especialistas Marítimos
+              Especialistas Mar{'\u00ED'}timos
             </span>
             <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">
-              Reparação e Manutenção
+              Repara{'\u00E7'}{'\u00E3'}o e Manuten{'\u00E7'}{'\u00E3'}o
             </h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
           
-            href="https://wa.me/351913282888"
+            href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
           >
-            <span>Orçamento</span>
+            <span>Or{'\u00E7'}amento</span>
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
