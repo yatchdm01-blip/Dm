@@ -8,7 +8,7 @@ const latestArticles = [
     id: '1',
     title: 'Tratamento de Casco e Antifouling',
     excerpt: 'Proteção profissional do casco para máxima performance.',
-    image: 'https://images.unsplash.com/photo-1544473403-43904d4b67bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20OSMOSE.webp',
     date: 'Oct 12, 2025',
     author: 'Capt. James'
   },
@@ -16,7 +16,7 @@ const latestArticles = [
     id: '2',
     title: 'Pintura & Gelcoat',
     excerpt: 'Acabamento profissional que protege e valoriza o seu barco.',
-    image: 'https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20PINTURA%20VELEIRO.webp',
     date: 'Oct 15, 2025',
     author: 'Sarah Marine'
   },
@@ -24,7 +24,7 @@ const latestArticles = [
     id: '3',
     title: 'Rigging Profissional',
     excerpt: 'Instalação e inspeção de rigging fixo e móvel.',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/RIGGING%20DM.webp',
     date: 'Oct 20, 2025',
     author: 'David Helms'
   }
