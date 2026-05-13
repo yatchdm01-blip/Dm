@@ -1,6 +1,5 @@
 import React from 'react';
 import ArticleCard from '../ArticleCard';
-import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 const latestArticles = [
@@ -40,11 +39,15 @@ export default function ArticlesPreview() {
             <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">Reparação e Manutenção</h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
-          <Link to="/knowledge" className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group">
+          
+            href="https://wa.me/351913282888"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
+          >
             Orçamento <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </a>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {latestArticles.map((article) => (
             <ArticleCard 
