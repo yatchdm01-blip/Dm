@@ -29,6 +29,8 @@ const latestArticles = [
   }
 ];
 
+const whatsapp = 'https://wa.me/351913282888';
+
 export default function ArticlesPreview() {
   return (
     <section className="py-24 bg-off-white">
@@ -43,15 +45,13 @@ export default function ArticlesPreview() {
             </h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
-          
-            href="https://wa.me/351913282888"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => window.open(whatsapp, '_blank')}
             className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
           >
             Orcamento
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </a>
+          </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {latestArticles.map((article) => (
