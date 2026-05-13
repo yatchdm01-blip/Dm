@@ -45,7 +45,7 @@ export default function ArticlesPreview() {
             </h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
-          <whatsapp
+          <button
             onClick={() => window.open(whatsapp, '_blank')}
             className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group"
           >
