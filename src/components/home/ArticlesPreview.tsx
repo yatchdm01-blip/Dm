@@ -41,7 +41,7 @@ export default function ArticlesPreview() {
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
           <Link to="/knowledge" className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group">
-            Ver Todos os Artigos <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            Orçamento <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 
