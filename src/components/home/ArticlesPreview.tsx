@@ -23,7 +23,7 @@ const latestArticles = [
   {
     id: '3',
     title: 'Rigging Profissional',
-    excerpt: 'Exploring the latest technology in personal flotation devices and why it is time to upgrade your gear.',
+    excerpt: 'Instalação e inspeção de rigging fixo e móvel.',
     image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     date: 'Oct 20, 2025',
     author: 'David Helms'
