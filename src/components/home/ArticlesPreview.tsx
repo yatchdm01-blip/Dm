@@ -37,7 +37,7 @@ export default function ArticlesPreview() {
         <div className="flex justify-between items-end mb-16">
           <div>
             <span className="text-accent font-bold text-[10px] uppercase tracking-[0.3em] mb-3 block">Especialistas Marítimos</span>
-            <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">Centro de Conhecimento</h2>
+            <h2 className="text-4xl font-bold text-primary uppercase tracking-tight">Reparação e Manutenção</h2>
             <div className="w-20 h-1.5 bg-accent mt-4"></div>
           </div>
           <Link to="/knowledge" className="text-primary font-bold flex items-center gap-2 hover:text-accent transition-colors group">
