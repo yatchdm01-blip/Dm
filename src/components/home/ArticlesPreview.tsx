@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 const latestArticles = [
   {
     id: '1',
-    title: 'Choosing the Right Anchor for Your Vessel',
+    title: 'Tratamento de Casco e Antifouling',
     excerpt: 'A comprehensive guide to understanding different anchor types and which one is best suited for your cruising grounds.',
     image: 'https://images.unsplash.com/photo-1544473403-43904d4b67bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     date: 'Oct 12, 2025',
