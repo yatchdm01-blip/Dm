@@ -4,6 +4,7 @@ import gsap from 'gsap';
 
 const brands = [
   { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2001.png' },
+  { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA08.png' },
   { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2011.png' },
   { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2010.png' },
   { name: 'Marlow', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2002.png' },
