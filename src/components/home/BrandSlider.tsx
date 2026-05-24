@@ -22,7 +22,6 @@ export default function BrandSlider() {
     
     const track = trackRef.current;
     const totalWidth = track.scrollWidth / 2;
-
     gsap.to(track, {
       x: -totalWidth,
       duration: 20,
@@ -37,7 +36,6 @@ export default function BrandSlider() {
         <h2 className="text-3xl font-bold text-primary uppercase tracking-tight">Compre por Marca</h2>
         <div className="w-20 h-1.5 bg-accent mt-4 mx-auto"></div>
       </div>
-
       <div className="relative">
         <div 
           ref={trackRef}
@@ -47,13 +45,12 @@ export default function BrandSlider() {
           {[...brands, ...brands].map((brand, index) => (
             <div 
               key={`${brand.name}-${index}`}
-              className="w-48 h-24 bg-white rounded-xl border border-slate-100 shadow-sm flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-500"
+              className="w-48 h-24 bg-white rounded-xl border border-slate-100 shadow-sm flex items-center justify-center p-6 transition-all duration-500"
             >
               <img 
                 src={brand.logo} 
                 alt={brand.name} 
                 className="max-w-full max-h-full object-contain"
-                referrerPolicy="no-referrer"
               />
             </div>
           ))}
