@@ -10,7 +10,7 @@ const brands = [
   { name: 'Lofrans', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2005.png' },
   { name: 'Harken', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2006.png' },
   { name: 'Spinlock', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2007.png' },
-  { name: 'Raymarine', logo: 'https://www.raymarine.com/img/raymarine-logo.svg' },
+  { name: 'Raymarine', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2009.png' },
 ];
 
 export default function BrandSlider() {
