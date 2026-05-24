@@ -5,7 +5,7 @@ import gsap from 'gsap';
 const brands = [
   { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2001.png' },
   { name: 'Marlow', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2002.png' },
-  { name: 'Hamma', logo: 'https://hammaregatta.com/wp-content/uploads/2020/07/Hamma-Regatta-Logo-White-Background.png' },
+  { name: 'Hamma', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2003.png' },
   { name: 'Selden', logo: 'https://www.seldenmast.com/wp-content/themes/selden/assets/img/logo.svg' },
   { name: 'Lofrans', logo: 'https://www.lofrans.com/img/logo.png' },
   { name: 'Harken', logo: 'https://www.harken.com/uploadedImages/Harken_Logo_Red_Black.png' },
