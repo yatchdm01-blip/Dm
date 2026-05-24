@@ -3,7 +3,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
 const brands = [
-  { name: 'Lewmar', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lewmar_logo.svg/1200px-Lewmar_logo.svg.png' },
+  { name: 'Lewmar', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2001.png' },
   { name: 'Marlow', logo: 'https://www.marlowropes.com/wp-content/uploads/2021/04/Marlow-Logo-Red-RGB-300x113.png' },
   { name: 'Hamma', logo: 'https://hammaregatta.com/wp-content/uploads/2020/07/Hamma-Regatta-Logo-White-Background.png' },
   { name: 'Selden', logo: 'https://www.seldenmast.com/wp-content/themes/selden/assets/img/logo.svg' },
