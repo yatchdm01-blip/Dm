@@ -11,7 +11,7 @@ const categories = [
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/BARCOS%201600X1200/100.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VENDA%201600X1200%20104.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VISTA%20DO%20ALTO%20BARCOS%201600X1200:106.webp' },
-  { title: 'Safety Equipment', image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80' },
+  { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VELEIROS%201600X1200%20106.webp' },
   { title: 'Architectural and Industrial Rigging', image: 'https://images.unsplash.com/photo-1599240813974-61041f487160?auto=format&fit=crop&w=600&q=80' },
   { title: 'Trade Terms', image: 'https://images.unsplash.com/photo-1544473403-43904d4b67bd?auto=format&fit=crop&w=600&q=80' },
 ];
