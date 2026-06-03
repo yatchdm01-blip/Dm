@@ -13,7 +13,7 @@ const brands = [
   { name: 'Selden', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2004.png' },
   { name: 'Lofrans', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%20KIWI-GRIP%20.png' },
   { name: 'Harken', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%20DIRECT-SAILLS06.png' },
-  { name: 'Spinlock', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2007.png' },
+  { name: 'Spinlock', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%20STAR-LOOK%2007.png' },
   { name: 'Raymarine', logo: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/MARCA%2009.png' },
 ];
 
