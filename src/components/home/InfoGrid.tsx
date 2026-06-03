@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 const categories = [
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%201600X1200%20ATE%20100%20MIL.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%201600X1200%20VELEIRO.webp' },
-  { title: 'Mooring Information', image: 'https://images.unsplash.com/photo-1599240813974-61041f487160?auto=format&fit=crop&w=600&q=80' },
+  { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20CARD%20CATAMARA%201600X1200.webp' },
   { title: 'Standing Rigging Assistance', image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80' },
   { title: 'Custom Splicing and Rigging Service', image: 'https://images.unsplash.com/photo-1544473403-43904d4b67bd?auto=format&fit=crop&w=600&q=80' },
   { title: 'Running Rigging Resources', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80' },
