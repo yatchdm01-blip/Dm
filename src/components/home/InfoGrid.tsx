@@ -13,7 +13,7 @@ const categories = [
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VISTA%20DO%20ALTO%20BARCOS%201600X1200:106.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VELEIROS%201600X1200%20106.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20VELEIRO%201600X1200%20103.webp' },
-  { title: 'Trade Terms', image: 'https://images.unsplash.com/photo-1544473403-43904d4b67bd?auto=format&fit=crop&w=600&q=80' },
+  { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%201600x1200%20vista.webp' },
 ];
 
 export default function InfoGrid() {
