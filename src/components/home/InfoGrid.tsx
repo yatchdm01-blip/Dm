@@ -7,7 +7,7 @@ const categories = [
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20CARD%20CATAMARA%201600X1200.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20CATAMARA%201600X1200/DM%201600X1200%20ATE%2050%20MIL.webp' },
   { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20LANCHA%201600X1200%20105.webp' },
-  { title: 'Running Rigging Resources', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80' },
+  { title: '', image: 'https://chbpxbbfkiqoebkiycwg.supabase.co/storage/v1/object/public/DM%20yacht/DM%20CATAMARA%201600X1200/102.webp' },
   { title: 'Sustainability Information', image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80' },
   { title: 'Chandlery Information', image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
   { title: 'Deck Hardware Support', image: 'https://images.unsplash.com/photo-1516515429572-1f9f3b859894?auto=format&fit=crop&w=600&q=80' },
